@@ -20,7 +20,7 @@ then
 	FILE=$(curl -L $URL | grep og:image | cut -d'"' -f4)
 else
 	echo "We are getting a video from instagram... Hang on..";
-	FILE=$(curl -L $URL | grep mp4 | cut -d'"' -f4 | head -n 1)
+	FILE=$(curl -L $URL | grep og:video | cut -d'"' -f4 | head -n 1)
 fi
 
 echo "Saving file to: $FILE"
