@@ -1,4 +1,4 @@
 Instagrabber
 ============
 
-Instagrabber - A simple shell script ro save pictures and videos from Instagram.com
+Instagrabber - A simple shell script to save pictures and videos from Instagram.com
